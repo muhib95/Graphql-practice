@@ -6,7 +6,7 @@ image:String
 price:Float
 quantity:Int
 onStock:Boolean
-category:ID
+category:Category
    
     
   }

@@ -6,7 +6,7 @@ const products = [
     price: 29.32,
     quantity: 30,
     onStock: true,
-    category: "321avc",
+    categoryId: "123",
   },
   {
     id: "123abcfff",
@@ -15,7 +15,7 @@ const products = [
     price: 29.32,
     quantity: 30,
     onStock: true,
-    category: "321avc",
+    categoryId: "1234",
   },
   {
     id: "123abcf",
@@ -24,7 +24,7 @@ const products = [
     price: 29.32,
     quantity: 30,
     onStock: true,
-    category: "321avc",
+    categoryId: "1235",
   },
   {
     id: "123abcg",
@@ -33,7 +33,7 @@ const products = [
     price: 29.32,
     quantity: 30,
     onStock: true,
-    category: "321avc",
+    categoryId: "12356",
   },
 ];
 const categories = [
@@ -47,6 +47,10 @@ const categories = [
   },
   {
     id: "1235",
+    name: "Pc",
+  },
+  {
+    id: "12356",
     name: "Pc",
   },
 ];

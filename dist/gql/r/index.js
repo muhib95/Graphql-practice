@@ -7,5 +7,9 @@ export const resolvers = {
             return p;
         },
         categories: () => db.categories,
+        category: (parent, args, context) => {
+            const r = db.categories.find((c) => c.id === args.cId);
+            return r;
+        },
     },
 };

@@ -21,5 +21,6 @@ category:ID
     products: [Product]
     product(productId:ID!):Product
     categories: [Category]
+    category(cId:ID!):Category
   }
 `;

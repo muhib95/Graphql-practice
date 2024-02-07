@@ -36,6 +36,21 @@ const products = [
     category: "321avc",
   },
 ];
+const categories = [
+  {
+    id: "123",
+    name: "Mobile",
+  },
+  {
+    id: "1234",
+    name: "Tv",
+  },
+  {
+    id: "1235",
+    name: "Pc",
+  },
+];
 export const db = {
   products,
+  categories,
 };

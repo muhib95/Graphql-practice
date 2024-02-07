@@ -10,7 +10,7 @@ const products = [
     },
     {
         id: "123abcfff",
-        name: "Muhib",
+        name: "Babu",
         image: "m.jpg",
         price: 29.32,
         quantity: 30,
